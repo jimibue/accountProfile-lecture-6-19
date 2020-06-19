@@ -4,6 +4,7 @@ import { Container } from "semantic-ui-react";
 import AccountProfile from "./components/AccountProfile";
 import Navbar from "./components/Navbar";
 import { Switch, Route } from "react-router-dom";
+import AccountProfileContext from "./components/AccountProfileContext";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Switch>
           <Route exact path="/" render={() => <div>Home</div>} />
           <Route exact path="/account/profile" component={AccountProfile} />
+          <Route exact path="/context" component={AccountProfileContext} />
         </Switch>
       </Container>
     </>

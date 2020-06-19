@@ -14,6 +14,9 @@ const Navbar = () => {
           <NavLink to="/account/profile">
             <Menu.Item>{value.username}</Menu.Item>
           </NavLink>
+          <NavLink to="/context">
+            <Menu.Item>context: {value.username}</Menu.Item>
+          </NavLink>
         </Menu>
       )}
     </AccountConsumer>

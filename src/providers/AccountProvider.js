@@ -1,7 +1,7 @@
 import React from "react";
 
 // Set Up The Initial Context
-const AccountContext = React.createContext();
+export const AccountContext = React.createContext();
 
 // Create an exportable consumer that can be injected into components
 export const AccountConsumer = AccountContext.Consumer;
