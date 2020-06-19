@@ -1,10 +1,13 @@
 import React from "react";
+import Account from "./Account";
+import AccountForm from "./AccountForm";
 
 export default class AccountProfile extends React.Component {
   render() {
     return (
       <div>
-        <h1>AccountProfile</h1>
+        <Account />
+        <AccountForm />
       </div>
     );
   }
