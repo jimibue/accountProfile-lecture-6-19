@@ -12,6 +12,11 @@ export default class AccountProvider extends React.Component {
     username: "Fooman",
     dateJoined: "6/19/2020",
     membershipLevel: "Silver",
+    updateAccount: (account) => this.updateAccount(account),
+  };
+
+  updateAccount = (account) => {
+    this.setState({ ...account });
   };
   render() {
     return (

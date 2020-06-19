@@ -7,7 +7,7 @@ export default class AccountProfile extends React.Component {
     return (
       <div>
         <Account />
-        <AccountForm />
+        <AccountForm x={"x"} formLabel={"Account Form"} />
       </div>
     );
   }
